@@ -1,0 +1,16 @@
+:root{
+    --mainColor:#ff206e;
+}
+
+body {
+    height: 5000px;
+}
+
+.navbar {
+    background-color: antiquewhite;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+    color: var(--mainColor);
+    font-weight: 400;
+}
